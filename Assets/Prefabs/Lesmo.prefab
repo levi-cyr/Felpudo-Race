@@ -16,7 +16,7 @@ GameObject:
   - component: {fileID: 4230816030404188885}
   m_Layer: 0
   m_Name: Lesmo
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -193,4 +193,3 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fdd5a3b158f0e45489d11a8a0b2d678c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  destroyEnemy: 0

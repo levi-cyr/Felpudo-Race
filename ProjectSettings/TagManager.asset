@@ -5,6 +5,8 @@ TagManager:
   serializedVersion: 2
   tags:
   - GameLimit
+  - PickUp
+  - Enemy
   layers:
   - Default
   - TransparentFX
