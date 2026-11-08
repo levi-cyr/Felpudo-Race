@@ -16,6 +16,9 @@ public class PlayerController : MonoBehaviour
     public int currentLife = 3;
     public GameObject[] heartIcons;
 
+    [Header("Scripts")]
+    [SerializeField] Score scoreScript;
+
     Rigidbody2D playerRb;
     Animator playerAnim;
 
@@ -83,6 +86,21 @@ public class PlayerController : MonoBehaviour
         }
     }
     #endregion
+
+    void OnTriggerEnter2D(Collider2D hit)
+    {
+        switch (hit.tag)
+        {
+            case "Banana PickUp":
+                scoreScript.playerScore = scoreScript.playerScore + 100;
+                Debug.Log("Coletou banana");
+                break;
+            case "Watermelon PickUp":
+                scoreScript.playerScore = scoreScript.playerScore + 300;
+                Debug.Log("Coletou melancia");
+                break;
+        }
+    }
 
     #region Debug
     void OnDrawGizmos()
