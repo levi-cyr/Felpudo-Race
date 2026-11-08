@@ -89,11 +89,11 @@ public class PlayerController : MonoBehaviour
         switch (hit.tag)
         {
             case "Banana PickUp":
-                scoreScript.playerScore = scoreScript.playerScore + 100;
+                scoreScript.playerScore = scoreScript.playerScore + 200;
                 Debug.Log("Coletou banana");
                 break;
             case "Watermelon PickUp":
-                scoreScript.playerScore = scoreScript.playerScore + 300;
+                scoreScript.playerScore = scoreScript.playerScore + 500;
                 Debug.Log("Coletou melancia");
                 break;
         }
