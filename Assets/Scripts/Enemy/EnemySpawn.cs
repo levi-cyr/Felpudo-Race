@@ -34,21 +34,27 @@ public class EnemySpawn : MonoBehaviour
     }
     IEnumerator MoveEnemy(GameObject enemy)
     {
-        Enemy enemyScript = enemy.GetComponent<Enemy>();
+        //Enemy enemyScript = enemy.GetComponent<Enemy>();
 
         while (enemy != null)
         {
             enemy.transform.Translate(Vector2.left * enemySpeed * Time.deltaTime);
 
-            //se o inimigo sair do limite visível, destrói o objeto
-            if (enemyScript != null && enemyScript.destroyEnemy)
-            {
-                Destroy(enemy);
-                Debug.Log("oye como va");
-                yield break; // Sai da corrotina
-            }
+            yield break; // Sai da corrotina
 
-            yield return null; // Espera o próximo frame
+
+            //codigo inutil
+            //se o inimigo sair do limite visível, destrói o objeto
+            /* if (enemyScript != null && enemyScript.destroyEnemy)
+             {
+
+                 Destroy(enemy);
+                 Debug.Log("oye como va");
+                 enemyScript.destroyEnemy = false;
+                 yield break; // Sai da corrotina
+             }
+
+             yield return null; // Espera o próximo frame */
         }
     }
 }

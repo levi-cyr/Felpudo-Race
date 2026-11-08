@@ -4,13 +4,14 @@ using UnityEngine;
 
 public class Enemy : MonoBehaviour
 {
-    public bool destroyEnemy = false;
+    //public bool destroyEnemy = false;
 
     void OnTriggerEnter2D(Collider2D hit)
     {
         if (hit.gameObject.CompareTag("GameLimit"))
         {
-            destroyEnemy = true; // ativa uma chave que permite destruir o inimigo
+            //destroyEnemy = true; // ativa uma chave que permite destruir o inimigo
+            Destroy(gameObject);
             Debug.Log("Destruiu inimigo");
         }
         
