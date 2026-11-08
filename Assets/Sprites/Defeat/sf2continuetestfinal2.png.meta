@@ -1,0 +1,1007 @@
+fileFormatVersion: 2
+guid: 342a44bf38914214681c679d26a6a7a9
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 1024
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: sf2continuetestfinal2_0
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 450
+        width: 109
+        height: 141
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c39aab091f6c624d84fce420a63e32e
+      internalID: 875783746
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sf2continuetestfinal2_1
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 450
+        width: 109
+        height: 141
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ccced913f8ddd594d975e439ea1960df
+      internalID: -2021184756
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sf2continuetestfinal2_2
+      rect:
+        serializedVersion: 2
+        x: 241
+        y: 450
+        width: 109
+        height: 141
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a51f977f6dec5cf4a93162fdf54a5439
+      internalID: -1427316407
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sf2continuetestfinal2_3
+      rect:
+        serializedVersion: 2
+        x: 350
+        y: 450
+        width: 109
+        height: 141
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 431ad29db51cf884b83c8984c00e8f34
+      internalID: 841884820
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sf2continuetestfinal2_4
+      rect:
+        serializedVersion: 2
+        x: 459
+        y: 450
+        width: 109
+        height: 141
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 70783e079d0322a4f9f6ba4483f96270
+      internalID: 655250041
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sf2continuetestfinal2_5
+      rect:
+        serializedVersion: 2
+        x: 568
+        y: 450
+        width: 109
+        height: 141
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d6fb2a7f857139e4fa4a272a68101baf
+      internalID: 920327180
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sf2continuetestfinal2_6
+      rect:
+        serializedVersion: 2
+        x: 677
+        y: 450
+        width: 109
+        height: 141
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d3e1631d97b162c40aca522409deedb9
+      internalID: 987156048
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sf2continuetestfinal2_7
+      rect:
+        serializedVersion: 2
+        x: 786
+        y: 450
+        width: 109
+        height: 141
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e61efdb6dcbc4b4dad159042b1166a7
+      internalID: -1671913403
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sf2continuetestfinal2_8
+      rect:
+        serializedVersion: 2
+        x: 895
+        y: 450
+        width: 109
+        height: 141
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc1b07e691f82dc4a9eb05f2699dbcf2
+      internalID: -472036162
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sf2continuetestfinal2_9
+      rect:
+        serializedVersion: 2
+        x: 1004
+        y: 450
+        width: 109
+        height: 141
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dcd5b73c3bb258d4ab8eb4b6a2c19d7f
+      internalID: -968923614
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sf2continuetestfinal2_10
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 309
+        width: 109
+        height: 141
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 55ad5aa1f5281f64b91951e1424ddbd0
+      internalID: 1043332717
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sf2continuetestfinal2_11
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 309
+        width: 109
+        height: 141
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5feea7c5ce5a784f8e53ff5241a0e4d
+      internalID: -980676321
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sf2continuetestfinal2_12
+      rect:
+        serializedVersion: 2
+        x: 241
+        y: 309
+        width: 109
+        height: 141
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5464d16a3d872f64db3e718808e3a583
+      internalID: 675520043
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sf2continuetestfinal2_13
+      rect:
+        serializedVersion: 2
+        x: 350
+        y: 309
+        width: 109
+        height: 141
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c3e248a733b4ec49b9cf3bef19c55cd
+      internalID: -709516355
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sf2continuetestfinal2_14
+      rect:
+        serializedVersion: 2
+        x: 459
+        y: 309
+        width: 109
+        height: 141
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a369ace1fa3a61048ba577f38ba762fe
+      internalID: 304579765
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sf2continuetestfinal2_15
+      rect:
+        serializedVersion: 2
+        x: 568
+        y: 309
+        width: 109
+        height: 141
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f18339186b9dcd64eb1d5b397f3dcd82
+      internalID: -364073052
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sf2continuetestfinal2_16
+      rect:
+        serializedVersion: 2
+        x: 677
+        y: 309
+        width: 109
+        height: 141
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 864828931ccd0dd45ac1c20ecdf0db5e
+      internalID: -1306780596
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sf2continuetestfinal2_17
+      rect:
+        serializedVersion: 2
+        x: 786
+        y: 309
+        width: 109
+        height: 141
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e41a68181b893ac4193c901b4d8084e3
+      internalID: 1613447894
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sf2continuetestfinal2_18
+      rect:
+        serializedVersion: 2
+        x: 895
+        y: 309
+        width: 109
+        height: 141
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22abe3e483c0b9245a87a017a4eb6776
+      internalID: 412772089
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sf2continuetestfinal2_19
+      rect:
+        serializedVersion: 2
+        x: 1004
+        y: 309
+        width: 109
+        height: 141
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 40d9dc144fb283d4291a42c89438f870
+      internalID: -1680058269
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sf2continuetestfinal2_20
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 168
+        width: 109
+        height: 141
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a87a062af0b7c5943aeb9a25254936a6
+      internalID: -1352160688
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sf2continuetestfinal2_21
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 168
+        width: 109
+        height: 141
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a8ec7bdc228fa60498652b455d831829
+      internalID: 38002240
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sf2continuetestfinal2_22
+      rect:
+        serializedVersion: 2
+        x: 241
+        y: 168
+        width: 109
+        height: 141
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a34d458ba048b84c8d521201ac59720
+      internalID: 1236059196
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sf2continuetestfinal2_23
+      rect:
+        serializedVersion: 2
+        x: 350
+        y: 168
+        width: 109
+        height: 141
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be1a00bfbc11e9146970657daed6eb2a
+      internalID: 1888613424
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sf2continuetestfinal2_24
+      rect:
+        serializedVersion: 2
+        x: 459
+        y: 168
+        width: 109
+        height: 141
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 778a6a809b4c3aa4dae9bd6c0f3a39e1
+      internalID: 794258571
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sf2continuetestfinal2_25
+      rect:
+        serializedVersion: 2
+        x: 568
+        y: 168
+        width: 109
+        height: 141
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 28840242a4d14a247af21a541252b702
+      internalID: 1066473322
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sf2continuetestfinal2_26
+      rect:
+        serializedVersion: 2
+        x: 677
+        y: 168
+        width: 109
+        height: 141
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ec84e9945dc2f04497c4d589bff1fd3
+      internalID: 1139930313
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sf2continuetestfinal2_27
+      rect:
+        serializedVersion: 2
+        x: 786
+        y: 168
+        width: 109
+        height: 141
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a03c7eff766789b4c814c136df92070f
+      internalID: 136310708
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sf2continuetestfinal2_28
+      rect:
+        serializedVersion: 2
+        x: 895
+        y: 168
+        width: 109
+        height: 141
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be607ed03ad21a0479b86c32c0696200
+      internalID: -1368219453
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sf2continuetestfinal2_29
+      rect:
+        serializedVersion: 2
+        x: 1004
+        y: 168
+        width: 109
+        height: 141
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f4cebdd3405ac704b84d210e45cc4af9
+      internalID: -2044353852
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sf2continuetestfinal2_30
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 27
+        width: 109
+        height: 141
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 052a941695989b24f88bfc611094f04b
+      internalID: -249281165
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sf2continuetestfinal2_31
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 27
+        width: 109
+        height: 141
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab16bfec4f64ff745954a28a6caf94d6
+      internalID: -196094247
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sf2continuetestfinal2_32
+      rect:
+        serializedVersion: 2
+        x: 241
+        y: 27
+        width: 109
+        height: 141
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e0932929b927f114ba6e0ab64df2e62e
+      internalID: 1132185902
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sf2continuetestfinal2_33
+      rect:
+        serializedVersion: 2
+        x: 350
+        y: 27
+        width: 109
+        height: 141
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 103bf74cde17a8b458a71f4846876372
+      internalID: 857271237
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sf2continuetestfinal2_34
+      rect:
+        serializedVersion: 2
+        x: 459
+        y: 27
+        width: 109
+        height: 141
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef67b534e4bbeb14fa4d43b0cb20f327
+      internalID: -1389088057
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sf2continuetestfinal2_35
+      rect:
+        serializedVersion: 2
+        x: 568
+        y: 27
+        width: 109
+        height: 141
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db03945eca473014b860d754afe45275
+      internalID: 1505250824
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sf2continuetestfinal2_36
+      rect:
+        serializedVersion: 2
+        x: 677
+        y: 27
+        width: 109
+        height: 141
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b4fd9642e6539848a868e96061eac6c
+      internalID: 980616320
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sf2continuetestfinal2_37
+      rect:
+        serializedVersion: 2
+        x: 786
+        y: 27
+        width: 109
+        height: 141
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e681b062accb4e4c8beb5841600ae13
+      internalID: -1232852105
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sf2continuetestfinal2_38
+      rect:
+        serializedVersion: 2
+        x: 895
+        y: 27
+        width: 109
+        height: 141
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cfa22c4e6d972a240b9a4cf2053e271e
+      internalID: 1421326634
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sf2continuetestfinal2_39
+      rect:
+        serializedVersion: 2
+        x: 1004
+        y: 27
+        width: 109
+        height: 141
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e592782dc2ca8641b4670f2d82d3f16
+      internalID: 472357072
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      sf2continuetestfinal2_0: 875783746
+      sf2continuetestfinal2_1: -2021184756
+      sf2continuetestfinal2_10: 1043332717
+      sf2continuetestfinal2_11: -980676321
+      sf2continuetestfinal2_12: 675520043
+      sf2continuetestfinal2_13: -709516355
+      sf2continuetestfinal2_14: 304579765
+      sf2continuetestfinal2_15: -364073052
+      sf2continuetestfinal2_16: -1306780596
+      sf2continuetestfinal2_17: 1613447894
+      sf2continuetestfinal2_18: 412772089
+      sf2continuetestfinal2_19: -1680058269
+      sf2continuetestfinal2_2: -1427316407
+      sf2continuetestfinal2_20: -1352160688
+      sf2continuetestfinal2_21: 38002240
+      sf2continuetestfinal2_22: 1236059196
+      sf2continuetestfinal2_23: 1888613424
+      sf2continuetestfinal2_24: 794258571
+      sf2continuetestfinal2_25: 1066473322
+      sf2continuetestfinal2_26: 1139930313
+      sf2continuetestfinal2_27: 136310708
+      sf2continuetestfinal2_28: -1368219453
+      sf2continuetestfinal2_29: -2044353852
+      sf2continuetestfinal2_3: 841884820
+      sf2continuetestfinal2_30: -249281165
+      sf2continuetestfinal2_31: -196094247
+      sf2continuetestfinal2_32: 1132185902
+      sf2continuetestfinal2_33: 857271237
+      sf2continuetestfinal2_34: -1389088057
+      sf2continuetestfinal2_35: 1505250824
+      sf2continuetestfinal2_36: 980616320
+      sf2continuetestfinal2_37: -1232852105
+      sf2continuetestfinal2_38: 1421326634
+      sf2continuetestfinal2_39: 472357072
+      sf2continuetestfinal2_4: 655250041
+      sf2continuetestfinal2_5: 920327180
+      sf2continuetestfinal2_6: 987156048
+      sf2continuetestfinal2_7: -1671913403
+      sf2continuetestfinal2_8: -472036162
+      sf2continuetestfinal2_9: -968923614
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
