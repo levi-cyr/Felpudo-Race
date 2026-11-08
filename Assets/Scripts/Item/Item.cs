@@ -8,13 +8,12 @@ public class Item : MonoBehaviour
     {
         if (hit.gameObject.CompareTag("GameLimit"))
         {
-            Destroy(gameObject);
+            Destroy(gameObject); // destroi o item quando colide no limite do mapa
         }
 
         if (hit.gameObject.CompareTag("Player"))
         {
-            //PlayerController playerControllerScript = hit.GetComponent<PlayerController>();
-            Destroy(gameObject);
+            Destroy(gameObject); // destroi o item quando colide com o player
         }
     }
 }
