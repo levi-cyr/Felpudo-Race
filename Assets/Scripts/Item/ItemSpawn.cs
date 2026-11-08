@@ -32,7 +32,6 @@ public class ItemSpawn : MonoBehaviour
             float y = Random.Range(-limitY, limitY);
             Vector2 randomPosition = new Vector2(transform.position.x, y);
             item = Instantiate(itemPrefab, randomPosition, Quaternion.identity);
-            Debug.Log("É p ta funcionando");
         }
 
         //inicia o movimento automático (corrotina)
