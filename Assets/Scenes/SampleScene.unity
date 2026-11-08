@@ -1739,6 +1739,7 @@ Transform:
   - {fileID: 776218081}
   - {fileID: 1715259557}
   - {fileID: 1465787696}
+  - {fileID: 1450086232}
   - {fileID: 1192239113}
   - {fileID: 1881291917}
   m_Father: {fileID: 0}
@@ -4038,6 +4039,55 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!1 &1450086231
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1450086232}
+  - component: {fileID: 1450086233}
+  m_Layer: 0
+  m_Name: ItemAirSpawner
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1450086232
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1450086231}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 13, y: 0, z: 10}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 519420032}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1450086233
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1450086231}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 565eb8c14f670904cbf327818b9a3956, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemPrefab: {fileID: 2673526554252989280, guid: f422cfa365950024384df6dd14833b70, type: 3}
+  timeBetweenSpawn: 8
+  itemSpeed: 4
+  canChangePositionOnY: 1
+  limitY: 2
 --- !u!1 &1465787695
 GameObject:
   m_ObjectHideFlags: 0
@@ -4064,7 +4114,7 @@ Transform:
   m_GameObject: {fileID: 1465787695}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 11.71, y: -3.97, z: 10}
+  m_LocalPosition: {x: 13, y: -3.97, z: 10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -4085,6 +4135,8 @@ MonoBehaviour:
   itemPrefab: {fileID: 1791477768049982891, guid: 2ce865ef99bc9454fae5975699739737, type: 3}
   timeBetweenSpawn: 5
   itemSpeed: 1
+  canChangePositionOnY: 0
+  limitY: 0
 --- !u!1 &1471894311
 GameObject:
   m_ObjectHideFlags: 0
