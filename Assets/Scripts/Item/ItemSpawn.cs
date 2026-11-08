@@ -9,6 +9,8 @@ public class ItemSpawn : MonoBehaviour
     //intervalo entre spawns (segundos)
     public float timeBetweenSpawn = 5f;
     public float itemSpeed = 1f;
+    public bool canChangePositionOnY = false;
+    public float limitY = 2f;
 
     void Start()
     {
@@ -19,9 +21,19 @@ public class ItemSpawn : MonoBehaviour
     void ItemSpawner()
     {
         Vector2 spawnLocation = transform.position;
-
-        //instancia o inimigo
-        GameObject item = Instantiate(itemPrefab, spawnLocation, Quaternion.identity);
+        GameObject item;
+        if (!canChangePositionOnY)
+        {
+            //instancia o item
+            item = Instantiate(itemPrefab, spawnLocation, Quaternion.identity);
+        }
+        else
+        {
+            float y = Random.Range(-limitY, limitY);
+            Vector2 randomPosition = new Vector2(transform.position.x, y);
+            item = Instantiate(itemPrefab, randomPosition, Quaternion.identity);
+            Debug.Log("É p ta funcionando");
+        }
 
         //inicia o movimento automático (corrotina)
         StartCoroutine(MoveItem(item));
