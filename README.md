@@ -7,7 +7,7 @@ Game developed for the **Game Programming** course. Created using the Unity Engi
 > **Created by:** Levi and JP (A.K.A. João Pedro Lobo Oliveira)
 ---
 
-Play the game clicking [here]()
+Play the game clicking [here](https://play.unity.com/en/games/5aa94f90-a664-4982-9ce4-a85eb1dfd148/felpudos-race)
 
 <img alt="Felpudo Race - Thumbnail" src="Thumbnail.png"/>
 
