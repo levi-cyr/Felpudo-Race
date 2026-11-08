@@ -9,7 +9,7 @@ Jogo desenvolvido para a disciplina de Programação de Jogos. Criado na Unity E
 
 Jogue clicando [aqui]()
 
-<img alt="Felpudo Race - Thumbnail" src="Thumbnail.png"/>
+<img alt="Felpudo Race - Thumbnail" src="Thumbnail - Felpudo's Race.png"/>
 
 ### Assets
 Efeitos sonoros:<br>

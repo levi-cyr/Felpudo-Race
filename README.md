@@ -9,7 +9,7 @@ Game developed for the **Game Programming** course. Created using the Unity Engi
 
 Play the game clicking [here]()
 
-<img alt="Felpudo Race - Thumbnail" src="Thumbnail.png"/>
+<img alt="Felpudo Race - Thumbnail" src="Thumbnail - Felpudo's Race.png"/>
 
 ### Assets
 Sound effect:<br>
