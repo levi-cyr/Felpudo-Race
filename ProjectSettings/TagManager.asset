@@ -5,8 +5,8 @@ TagManager:
   serializedVersion: 2
   tags:
   - GameLimit
-  - PickUp
   - Enemy
+  - Banana PickUp
   layers:
   - Default
   - TransparentFX

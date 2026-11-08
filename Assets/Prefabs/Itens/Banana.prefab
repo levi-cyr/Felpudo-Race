@@ -16,7 +16,7 @@ GameObject:
   - component: {fileID: -3936818663852748272}
   m_Layer: 0
   m_Name: Banana
-  m_TagString: PickUp
+  m_TagString: Banana PickUp
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
