@@ -12,6 +12,8 @@ public class PlayerController : MonoBehaviour
     [Header("Player Settings")]
     [SerializeField] float playerSpeed = 5f;
     [SerializeField] float jumpForce = 10f; //o jogo
+    public int currentLife = 3;
+    public GameObject[] heartIcons;
 
     Rigidbody2D playerRb;
     Animator playerAnim;
@@ -22,6 +24,22 @@ public class PlayerController : MonoBehaviour
         playerAnim = GetComponent<Animator>();
     }
     void Update()
+    {
+        PlayerJump();
+    }
+
+    void FixedUpdate()
+    {
+        PlayerMovement();
+    }
+    
+    #region Player movement
+    void PlayerMovement()
+    {
+        playerRb.velocity = new Vector2(playerSpeed, playerRb.velocity.y); // pega o rigidbody do player e faz ele "andar" para a direita
+    }
+
+    void PlayerJump()
     {
         isGrounded = Physics2D.OverlapCircle(groundCheck.position, 0.2f, groundLayer); // checa se o player esta encostando no chao
 
@@ -35,12 +53,36 @@ public class PlayerController : MonoBehaviour
             playerAnim.SetBool("Jump", false);
         }
     }
+    #endregion
 
-    void FixedUpdate()
+    #region Player life
+    public void GetHit(int damage)
     {
-        playerRb.velocity = new Vector2(playerSpeed, playerRb.velocity.y); // pega o rigidbody do player e faz ele "andar" para a direita
+        currentLife = currentLife - damage;
+        UpdateHeartUI();
+        if (currentLife <= 0)
+        {
+            Die();
+        }
     }
 
+    void Die()
+    {
+        //Destroy(gameObject);
+        Debug.Log("Morreu palhaço");
+    }
+
+    void UpdateHeartUI()
+    {
+        for (int i = 0; i < heartIcons.Length; i++) // loopa a quantidade de gameobject do coração que tem na cena para poder atualizar
+        {
+            heartIcons[i].SetActive(i < currentLife); // se o valor que o loop esta (i) for maior que a vida atual, 
+            // ele desativa esse valor e se for menor ele ativa. Caso a vida atual for igual ao valor do loop, ele tambem desativa
+        }
+    }
+    #endregion
+
+    #region Debug
     void OnDrawGizmos()
     {
         if (isGrounded)
@@ -54,4 +96,5 @@ public class PlayerController : MonoBehaviour
             Gizmos.DrawWireSphere(groundCheck.position, 0.2f);
         }
     }
+    #endregion
 }
