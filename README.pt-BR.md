@@ -7,7 +7,7 @@ Jogo desenvolvido para a disciplina de Programação de Jogos. Criado na Unity E
 > **Criado por:** Levi and JP (A.K.A. João Pedro Lobo Oliveira)
 ---
 
-Jogue clicando [aqui]()
+Jogue clicando [aqui](https://play.unity.com/en/games/5aa94f90-a664-4982-9ce4-a85eb1dfd148/felpudos-race)
 
 <img alt="Felpudo Race - Thumbnail" src="Thumbnail.png"/>
 
