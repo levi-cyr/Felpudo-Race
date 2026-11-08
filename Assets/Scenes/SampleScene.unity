@@ -1330,6 +1330,7 @@ MonoBehaviour:
   groundCheck: {fileID: 1684090809}
   isGrounded: 0
   playerSpeed: 5
+  horizontalSpeed: 3
   jumpForce: 10
   currentLife: 3
   heartIcons:
@@ -4734,7 +4735,7 @@ GameObject:
   - component: {fileID: 1881291919}
   - component: {fileID: 1881291918}
   m_Layer: 0
-  m_Name: Limit (1)
+  m_Name: Limit for Player
   m_TagString: GameLimit
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

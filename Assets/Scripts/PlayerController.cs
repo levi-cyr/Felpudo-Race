@@ -11,6 +11,7 @@ public class PlayerController : MonoBehaviour
 
     [Header("Player Settings")]
     [SerializeField] float playerSpeed = 5f;
+    [SerializeField] float horizontalSpeed = 3f;
     [SerializeField] float jumpForce = 10f; //o jogo
     public int currentLife = 3;
     public GameObject[] heartIcons;
@@ -32,11 +33,12 @@ public class PlayerController : MonoBehaviour
     {
         PlayerMovement();
     }
-    
+
     #region Player movement
     void PlayerMovement()
     {
-        playerRb.velocity = new Vector2(playerSpeed, playerRb.velocity.y); // pega o rigidbody do player e faz ele "andar" para a direita
+        float horizontalMovement = Input.GetAxis("Horizontal") * horizontalSpeed;
+        playerRb.velocity = new Vector2(playerSpeed + horizontalMovement, playerRb.velocity.y); // pega o rigidbody do player e faz ele "andar" para a direita
     }
 
     void PlayerJump()
