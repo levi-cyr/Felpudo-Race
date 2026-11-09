@@ -11,8 +11,7 @@ Jogue clicando [aqui](https://play.unity.com/en/games/5aa94f90-a664-4982-9ce4-a8
 
 <img alt="Felpudo Race - Thumbnail" src="Thumbnail - Felpudo's Race.png"/>
 
-### Assets
-Efeitos sonoros:<br>
+https://github.com/user-attachments/assets/f3c24775-5ff0-45d4-acb1-11a5f550b54e
 
 Música: <br> 
 https://www.youtube.com/watch?v=wBtx2dqVGRM&list=PLD677B4A66D9CD31F&index=9
